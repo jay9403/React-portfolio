@@ -8,23 +8,27 @@ const skills = [
   { name: 'Node.js', level: 'Intermediate' },
   { name: 'Python', level: 'Intermediate' },
   { name: 'SQL', level: 'Intermediate' },
+  { name: 'SpringBoot', level: 'Advanced' },
+  { name: 'Playwright', level: 'Advanced' },
+  { name: 'Java', level: 'Advanced' },
 ];
 
 const projects = [
   {
-    title: 'Project 1',
-    description: 'A brief description of project 1',
-    technologies: ['React', 'TypeScript', 'Tailwind'],
-    link: '#',
+    title: 'Vehicle Sharing Platform',
+    description: 'A full-stack web application for renting two-wheelers, built using Spring Boot, React, Hibernate, and MySQL. It allows users to browse, book, and manage bike rentals through a user-friendly interface. The backend manages vehicle availability, bookings, and user data securely with Hibernate ORM and MySQL.',
+    technologies: ['Spring Boot', 'React', 'Hibernate', 'MySQL'],
+    link: '#', // You can add a live link or GitHub repo here
   },
   {
-    title: 'Project 2',
-    description: 'A brief description of project 2',
-    technologies: ['Node.js', 'Express', 'MongoDB'],
-    link: '#',
+    title: 'FSA_Store – Healthcare E-commerce Automation',
+    description: 'An end-to-end automation project for a healthcare domain e-commerce platform using Playwright. Implemented full-fledged automation test suites, integrated Docker for environment setup, and used CI/CD pipelines to ensure smooth and continuous deployment and testing workflows.',
+    technologies: ['Playwright', 'Docker', 'CI/CD', 'JavaScript'],
+    link: '#', // Add repo or CI/CD dashboard link here
   },
   // Add more projects as needed
 ];
+
 
 const Home = () => {
   return (

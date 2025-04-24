@@ -2,16 +2,17 @@ import { motion } from 'framer-motion';
 
 const experiences = [
   {
-    title: 'Senior Developer',
-    company: 'Tech Company',
-    period: '2020 - Present',
-    description: 'Led development of multiple web applications using React and Node.js.',
+    title: 'Software Developer',
+    company: 'Testrig Technology',
+    period: ' Sep 2023 - Present',
+    description: 'Led the development of multiple web applications using React and Node.js. Spearheaded testing and automation efforts with Playwright, and implemented a robust CI/CD pipeline to streamline deployment and ensure code quality.',
+
   },
   {
     title: 'Full Stack Developer',
-    company: 'Digital Agency',
-    period: '2018 - 2020',
-    description: 'Developed and maintained client websites and applications.',
+    company: 'IACSD Pune',
+    period: 'Sep 2023 - Mar 2024',
+    description: 'Developed and maintained client-facing websites and applications using React for the frontend, Spring Boot for backend services, and MySQL for database management.',
   },
   // Add more experiences as needed
 ];
