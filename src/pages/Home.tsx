@@ -18,15 +18,15 @@ const projects = [
     title: 'Vehicle Sharing Platform',
     description: 'A full-stack web application for renting two-wheelers, built using Spring Boot, React, Hibernate, and MySQL. It allows users to browse, book, and manage bike rentals through a user-friendly interface. The backend manages vehicle availability, bookings, and user data securely with Hibernate ORM and MySQL.',
     technologies: ['Spring Boot', 'React', 'Hibernate', 'MySQL'],
-    link: '#', // You can add a live link or GitHub repo here
+    link: '#', 
   },
   {
     title: 'FSA_Store – Healthcare E-commerce Automation',
     description: 'An end-to-end automation project for a healthcare domain e-commerce platform using Playwright. Implemented full-fledged automation test suites, integrated Docker for environment setup, and used CI/CD pipelines to ensure smooth and continuous deployment and testing workflows.',
     technologies: ['Playwright', 'Docker', 'CI/CD', 'JavaScript'],
-    link: '#', // Add repo or CI/CD dashboard link here
+    link: '#', 
   },
-  // Add more projects as needed
+  
 ];
 
 
